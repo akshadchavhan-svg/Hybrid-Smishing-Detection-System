@@ -71,6 +71,7 @@ def predict():
             "method": "model",
             "reason": "Predicted by ML model"
         }), 200
+        
 
     except Exception as e:
         return jsonify({
